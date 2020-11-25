@@ -5,7 +5,7 @@ function ajouterParc(form){
     };
 
     //On fetch 
-    fetch("http://localhost:8080/parcvehicule", {
+    fetch("http://c30031ce0099.ngrok.io/parcvehicule", {
         method:"POST",
         headers: {"Accept": "application/json, text/plain ,*/*",
         "Content-type":"application/json"},
