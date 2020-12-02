@@ -19,8 +19,12 @@ function ajouterParc(form){
         method:"POST",
         headers: {"Accept": "application/json, text/plain ,*/*",
         "Content-type":"application/json"},
-        body: JSON.stringify({ville:agence.ville, adresse:agence.adresse, nomDirecteur:agence.nomDirecteur,
-            telephone:agence.telephone,mail:agence.mail
+        body: JSON.stringify({ville:agence.ville, 
+            nom:agence.nom, 
+            adresse:agence.adresse, 
+            nomDirecteur:agence.nomDirecteur,
+            telephone:agence.telephone,
+            mail:agence.mail
         })
     })
     //then
