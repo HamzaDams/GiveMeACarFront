@@ -15,7 +15,7 @@ function ajouterParc(form){
     };
 
     //On fetch 
-    fetch("http://cc6a4fe876f2.ngrok.io/agence", {
+    fetch("https://cc6a4fe876f2.ngrok.io/agence", {
         method:"POST",
         headers: {"Accept": "application/json, text/plain ,*/*",
         "Content-type":"application/json"},
@@ -53,7 +53,7 @@ function alert(message) {
  */
 function afficherUneAgence(){
     if(urlParams.get('id') != null){
-        fetch('http://cc6a4fe876f2.ngrok.io/agence?id='+urlParams.get('id'))
+        fetch('https://cc6a4fe876f2.ngrok.io/agence?id='+urlParams.get('id'))
         .then(response => response.json())
         .then(data => {
             document.querySelector('#ParcVehiculeId').value = data.id;

@@ -1,7 +1,7 @@
 afficherAgences();
 
 function afficherAgences() {
-    fetch('http://cc6a4fe876f2.ngrok.io/agences')
+    fetch('https://cc6a4fe876f2.ngrok.io/agences')
     .then(response => response.json())
     .then(data => {
         let tableInfo = "";
