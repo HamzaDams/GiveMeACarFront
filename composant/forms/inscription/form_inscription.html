@@ -3,9 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../forms.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <title>Form inscription</title>
 </head>
 <body>
+<div class="all">
+  <header>
 
+    <h1>Inscription</h1>
+
+  </header>
+  <div class="container">
+    <div class="left">
+
+      <form>
+        <label>
+          <p>Prénom</p>
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="prenom" placeholder="Prénom">
+          </div>
+        </label>
+      </form>
+
+      <form>
+        <label>
+          <p>Date de naissance</p>
+          <div class="input-container">
+            <i class="far fa-calendar-alt"></i>"
+            <input type="date" name="date">
+          </div>
+        </label>
+
+      </form>
+
+
+      <form>
+        <label>
+          <p>E-mail</p>
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" name="email" placeholder="user@example.com">
+          </div>
+        </label>
+      </form>
+
+
+    </div>
+
+
+
+    <div class="right">
+      <form>
+        <label>
+          <p>Nom</p>
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="nom" placeholder="Nom">
+          </div>
+        </label>
+      </form>
+
+      <form>
+        <label>
+          <p>Mot de passe</p>
+          <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" placeholder="Mot de passe" pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*">
+          </div>
+        </label>
+      </form>
+
+      <form>
+        <label>
+          <p>Confirmation mot de passe</p>
+          <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="confirm" placeholder="Mot de passe">
+          </div>
+        </label>
+      </form>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="accept">
+        <form>
+          <label>
+            <input type="checkbox" name="checkbox"> En cliquant sur valider,
+            <p>j'accepte les conditions générales</p></label>
+        </form>
+      </div>
+
+      <div class="envoyer">
+        <form action="bottom" method="post">
+          <label>
+            <input type="submit" name="send">
+          </label>
+
+        </form>
+      </div>
+    </div>
+
+  </footer>
+</div>
 </body>
 </html>
