@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0635f40-749e-4728-90d4-36c1dd7ab70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/avis/avis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/avis/avis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/buttons/buttons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/buttons/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/card/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/card/card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/navbar/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composent/navbar/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/connection/form_connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/inscription/form_inscription.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/accueil/accueil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/accueil/accueil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/connection/connection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/connection/connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/inscription/inscription.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/inscription/inscription.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607574730964</updated>
-      <workItem from="1607574732103" duration="2071000" />
+      <workItem from="1607574732103" duration="2239000" />
     </task>
     <servers />
   </component>
