@@ -29,10 +29,8 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 100px;
     }
     
@@ -47,11 +45,11 @@ header {
 .burger{
     display: none;
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 100px;
 }
 
-@media screen and (max-width : 1600px) {
+@media screen and (max-width : 1050px) {
     .nav{
         display: none;
     }
@@ -60,7 +58,7 @@ header {
     }   
 }
   
-@media screen and (max-width : 850px) {
+@media screen and (max-width : 500px) {
     .logo{
         display: none;
     }   
