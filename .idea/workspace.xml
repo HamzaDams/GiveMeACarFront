@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0635f40-749e-4728-90d4-36c1dd7ab70e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composent/avis/avis.css" beforeDir="false" afterPath="$PROJECT_DIR$/composant/avis/avis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/avis/avis.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/avis/avis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/buttons/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/composant/buttons/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/buttons/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/buttons/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/composant/card/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/card/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/card/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/composant/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composent/navbar/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/navbar/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/connection/form_connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/forms/connection/form_connection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/composant/forms/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/inscription/form_inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/composant/forms/inscription/form_inscription.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composant" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/forms" />
       <recent name="$PROJECT_DIR$/assets/img" />
@@ -63,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607574730964</updated>
-      <workItem from="1607574732103" duration="2523000" />
+      <workItem from="1607574732103" duration="2735000" />
     </task>
     <servers />
   </component>
