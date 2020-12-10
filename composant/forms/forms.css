@@ -26,11 +26,10 @@ input[type="email"],
 input[type="password"],
 input[type="date"]
 {
-    box-shadow: 0 2px 3px 0 #ababab;
     border:0 none;
     outline:0;
     height: 30px;
-    width: 200px;
+    width: 100%;
 }
 
 input[type="submit"]{
