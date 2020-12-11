@@ -5,35 +5,48 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
   <title>Document</title>
 </head>
 <body>
-<h1>Inscription</h1>
-<div class="main">
+<form action="index.html">
+  <div class="form">
+    <div>
+      <h1>Inscription</h1>
+    </div>
+    <div>
+      <label for="prenom_input">Prénom</label>
+      <input type="text" name="prenom" id="prenom_input">
+    </div>
+    <div>
+      <label for="nom-input">Nom</label>
+      <input type="text" name="nom" id="nom-input">
+    </div>
+    <div>
+      <label for="email_input">E-mail</label>
+      <input type="email" name="email" id="email_input">
+    </div>
+    <div>
+      <label for="date-input">Date de naissance</label>
+      <input type="date" name="date" id="date-input">
+    </div>
+    <div>
+      <label for="password-input">Mot de passe</label>
+      <input type="password" name="password" id="password-input">
+    </div>
+    <div>
+      <label for="password-confirm">Confirmation mot de passe</label>
+      <input type="password" name="confirm" id="password-confirm">
+    </div>
+    <div>
+      <input type="checkbox" name="accepter">
+      <label>En cliquant sur valider, j'accepte les conditions générales</label>
+    </div>
 
-  <label for="">Prénom</label>
-  <input class="" type="text" name="prenom">
-
-  <label>Nom</label>
-  <input class="" type="text" name="nom">
-
-  <label>E-mail</label>
-  <input class="" type="email" name="email">
-
-  <label>Date de naissance</label>
-  <input class="" type="date" name="date">
-
-  <label>Mot de passe</label>
-  <input class="" type="password" name="password">
-
-  <label>Confirmation mot de passe</label>
-  <input class="" type="password" name="confirm">
-
-  <label>En cliquant sur valider, j'accepte les conditions générales</label>
-  <input class="" type="checkbox" name="accepter">
-
-  <input class="" type="submit" name="">
-
+    <div>
+      <button>Envoyer</button>
+    </div>
+</form>
 </div>
 </body>
-</html>>
+</html>
