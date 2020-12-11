@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,500;0,700;0,800;1,100;1,500;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.accroche {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+}
+
+ .vag {
+    position: absolute;
+    top: 790px;
+    width: 100%;
+    height: auto;
+}
+
+.voit {
+    position: absolute;
+    top: 650px;
+    right: 0;
+}
+
+.tel {
+    position: absolute;
+    top: 650px;
+    float: left;
+}   
+
+@media screen and (max-width : 1600px){
+    .tel{
+        display: none;
+    }   
+}
