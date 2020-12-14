@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="captcha.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=0.2, maximum-scale=0.2, minimum-scale=0.2">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form_connection.css" />
     <title>Document</title>
 </head>
 <body>
     <form action="index.html">
         <div class="form">
             <div>
+                <img src='/assets/img/GiveMeACarWhite22.png'></img>
                 <h1>Connexion</h1>
             </div>
             <div>
@@ -22,13 +25,13 @@
                 <label for="password-user">Mot de passe</label>
                 <input type="password" name="password" id="password-user">
             </div>
-
-                <div>
-                    <button>Envoyer</button>
-                </div>
-
-        </div>
-
+            <div>
+                <div class="g-recaptcha" data-sitekey="6LcM_QUaAAAAADTZDSl-895QOpYKb9mvKsxUaz8n"></div>
+            </div>
+            <div>
+                <button>Envoyer</button>
+            </div>
+          </div>
     </form>
 </body>
 </html>
