@@ -4,41 +4,54 @@ body {
     font-family: 'Prompt', sans-serif;
     margin: 0;
 }
-p{
-    margin: 0;
+
+.hero-background {
+    background-image: url('../../assets/img/parking22.jpg');
+    height: 100vh;
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
 }
 
 .accroche {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    top: 200px;
-    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
 }
 
- .vag {
-    position: absolute;
-    top: 790px;
+.pied-hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.pied-hero img {
     width: 100%;
-    height: auto;
+    position: relative;
+    margin-top: -60%;
 }
 
-.voit {
-    position: absolute;
-    top: 650px;
-    right: 0;
+@media screen and (min-width:  1500px) {
+    .pied-hero img {
+        max-width: 85%;
+    }
+
+    .voit {
+        bottom: -22px;
+    }
 }
 
-.tel {
-    position: absolute;
-    top: 650px;
-    float: left;
-}   
-
-@media screen and (max-width : 1600px){
-    .tel{
+@media screen and (max-width:  768px) {
+    .pied-hero{
+        grid-template-columns: 100%;
+    }
+    
+    .tel {
         display: none;
-    }   
+    }
 }
