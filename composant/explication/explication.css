@@ -39,37 +39,60 @@ body {
     transform: translate(-50%, -50%);
     z-index: 2;
 }
+.message2 {
+    display: none;  
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    
+}
+
 .carrousel {
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
 .twingo {
     position: absolute;
-    top: 70%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
+    display: none;
 }
 
 @media screen and (max-width : 800px) {
     .carrousel{
         display: none;
     }
+    .message{
+        display: none;
+    }
+    .titre {
+        top: 12%;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+
     .twingo{
         display: block;
-        top: 75%;
+        top: 40%;
+    }
+    .sous-titre{
+        top: 17%;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    .message2 {
+        display: block;  
     }   
 }
   
-@media screen and (max-width : 700px) {
-    .sous-titre{
-        top: 22%;
-    }
-    .message{
-        top: 35%;
-    }
-
-}
