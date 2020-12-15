@@ -1,0 +1,57 @@
+h1{
+    color:white;
+    background: linear-gradient( 25deg,  rgba(4, 25, 66, 1), rgba(16, 118, 255, 1));
+    font-size: 20px ;
+    width: auto;
+    height: 50px;
+    text-align: center;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"]
+{
+    box-shadow: 0px 2px 3px 0 #ababab;
+    border:0 none;
+    outline:0;
+
+}
+input[type="submit"]{
+    border: none;
+    background-color: #1076FF;
+    padding: 10px 90px;
+    color: white;
+}
+.tout{
+    background-color:rgba(248, 247, 248, 1);
+    width: auto;
+    height: 400px;
+
+ }
+
+body {
+    font-family: 'Prompt', sans-serif;
+    line-height: 2;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+.conditions{
+    font-size: small;
+}
+
+contenu {
+    padding: 20px;
+    align-items: stretch;
+    display: flex;
+}
+
+
+
+
+input[type='image'] {
+    width: 15px;
+}
