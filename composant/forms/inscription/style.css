@@ -7,16 +7,15 @@ body{
 .form{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 700px;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 3px 0 #ababab;
     background-color: #F8F7F8;
-    max-width: 800px;
     padding: 0;
-
-
-}
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 .form div{
     width: 300px;
@@ -41,13 +40,14 @@ body{
 
 }
 
-.prenom, .nom, .date, .email, .password, .confirm{
+.prenom, .nom, .date, .email, .password, .confirm{ 
     width: 280px;
     border:0 none;
     outline:0;
     flex-direction: column;
     position: center;
 }
+
 label{
     display: block;
 
@@ -67,7 +67,11 @@ input[type=password], input[type=email], input[type=date], input[type=text] {
     border: none;
     width: 280px;
     margin-bottom: 15px;
-
+    height: 40px;
+    font-family: 'Prompt';
+    font-weight: 500;
+    padding: 5px; 
+    margin-top: 10px;
 }
 
 .button {
@@ -76,5 +80,5 @@ input[type=password], input[type=email], input[type=date], input[type=text] {
     border: none;
     height: 40px;
     width: 280px;
-
+    font-weight: 600;
 }

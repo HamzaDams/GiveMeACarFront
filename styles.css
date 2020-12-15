@@ -3,3 +3,25 @@
 @import url("composant/card/card.css");
 @import url("composant/navbar/navbar.css");
 @import url("composant/forms/forms.css");
+@import url("composant/forms/inscription/style.css");
+@import url("composant/footer/footer.css");
+
+.container{
+    width: auto;
+    
+}
+
+.content{
+    margin-right: auto;
+    margin-left: auto;
+    left: 40px;
+    width: calc(100% - 80px);
+    height: 850px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15%;
+}
+
+.footer{
+    position: absolute; bottom: 0;
+}
