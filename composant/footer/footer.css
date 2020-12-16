@@ -6,7 +6,7 @@ body{
 }
 
 .footer{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
@@ -83,3 +83,6 @@ body{
      width: 350px;
  }
 
+
+
+ @media-que
