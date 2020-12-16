@@ -14,14 +14,21 @@
     box-sizing: border-box;
 }
 
+.footer div:nth-child(1){
+    width: 100%;
+    text-align: center;
+}
+.divi{
+    background-color: #FFFFFF;
+}
 
-.footer div:nth-child(2){
+.footer div:nth-child(3){
      margin-left: 40px;
      text-align: left;
      width: 20%;
 }
 
-.footer div:nth-child(4){
+.footer div:nth-child(5){
     width: 100%;
 }
 
@@ -40,8 +47,6 @@
     align-content: center;
 }
 
-.content-4{
-}
 
 #img4{
     float: left;
@@ -53,8 +58,19 @@
     padding-top: 100%;
 }
 
+.flex-3 div{
+    width: 100%;
+}
+
 .uli{
     list-style: none;
     margin-left: -40px;
-    width: 500%;
+ }
+
+ .uli li{
+     width: 350px;
+ }
+
+ #uli2{
+     text-align: center;
  }
