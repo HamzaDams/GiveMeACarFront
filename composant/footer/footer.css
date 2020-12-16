@@ -46,8 +46,8 @@ body{
     padding-top: 15px;
 }
 .content-3 img{
-  margin-left: 11%;
-  margin-right: 11%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .content-3 div{
     width: 100%;
@@ -72,6 +72,8 @@ body{
 
 .flex-3 div:nth-child(2){
     text-align: center;
+    padding: 5%;
+    margin: 2%;
 }
 
 .uli{
@@ -80,9 +82,45 @@ body{
  }
 
  .uli li{
-     width: 350px;
+     width: 50%;
+ }
+
+ .ula{
+    list-style: none;
+    margin-left: 0x;  
  }
 
 
-
- @media-que
+@media screen and (max-width: 800px){
+.footer{
+    display: block;
+}
+.footer div:nth-child(2){
+    width: 100%;
+    margin-left: 30px;
+    padding-right: 100px;
+}
+.footer div:nth-child(3){
+    width: 100%;
+}
+.footer div:nth-child(4){
+    width: 100%;
+}
+.footer div:nth-child(5){
+    display: none;
+}
+.flex-3 div:nth-child(1){
+    width: 30%;
+    float: right;
+    text-align: left;
+}
+.flex-3 div:nth-child(2){
+    width: 65%;
+    float: left;
+    text-align: left;
+    margin-left: -40px;
+}
+.content-3{
+    border-top: 5px solid black;
+}
+}
