@@ -1,48 +1,31 @@
+.avis {
+    margin-top: 5%;
+}
+
 .titre {
     text-align: center;
-    position: absolute;
     width: 100%;
     height: auto;
-    top: 10%;
-    left: 50%;
     color: rgb(0, 0, 0);
     font-size: 40px;
     text-transform: uppercase;
-    transform: translate(-50%, -50%);
     z-index: 2;
 }
 
 .message {
     text-align: center;
-    position: absolute;
     width: 100%;
-    top: 90%;
-    left: 50%;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    transform: translate(-50%, -50%);
     z-index: 2;
 }
 .carrousel {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 1;
 }
 .portrait {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
     z-index: 0;
 }
 .portrait2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: none;
     z-index: 0;
 }
@@ -52,13 +35,11 @@
     }
     .portrait{
         display: block;
-        top: 40%;
     }
     .titre{
         font-size: 30px;
     }
     .message{
-        top: 70%;
     }   
 }
 
@@ -71,7 +52,6 @@
     }    
     .portrait2{
         display: block;
-        top: 40%;
     }
     .titre{
         font-size: 30px;

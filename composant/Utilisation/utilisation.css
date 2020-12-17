@@ -1,0 +1,44 @@
+.utilisation
+{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3.3%;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.item-utilisation{
+    background-color: #1076FF;
+    border-radius: 20px 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow:
+        0 0.7px 18.6px rgba(0, 0, 0, 0.081),
+        0 2.5px 62.5px rgba(0, 0, 0, 0.119),
+        0 11px 280px rgba(0, 0, 0, 0.2)
+    ;
+}
+
+.item-utilisation:nth-child(1){
+    background-color: #F0636D;
+}
+
+.item-utilisation:nth-child(3){
+    background-color: #FF725E ;
+}
+
+.icon {
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .utilisation {
+        grid-template-columns: 100%;
+    }
+}
