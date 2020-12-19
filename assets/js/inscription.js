@@ -1,6 +1,7 @@
 /**
  * API Inscription
  */
+
 function addUser(form) {
     const user = {  prenom:form.prenom.value, 
                     nom:form.nom.value, 
@@ -24,19 +25,16 @@ function addUser(form) {
         if (response.status == 409) {
             duplicateValue("Cette mail est déjà utiliser");
         }else{
-            document.location.href="/index.html"; 
+            setTimeout(() => document.location.href="/index.html", 3000);
+            alert("Vous allez étre redirigez vers la page d'accueil");
         }
         return response.json();
     })
     .then(data => {
-        console.log(data.errorCode)
-
-
+        console.log(data)
     })
 
     console.log(user);
-    
-
 
     function duplicateValue(message) {
         const mailInput = document.querySelector("#email_input");
@@ -45,5 +43,18 @@ function addUser(form) {
             <p>${message}</p>
         `
     }
+
+    const inputPassword = document.querySelector("#password-input");
+    const inputPasswordConfirm = document.querySelector("#password-confirm");
+
+    // inputPassword.addEventListener("keypress", e => {
+    //     check();
+    // })
+
+    // inputPasswordConfirm.addEventListener("keypress", e => {
+    //     check();
+    // })
+
+    
 }
 

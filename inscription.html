@@ -56,11 +56,11 @@
 
         <div class="password">
           <label for="password-input">Mot de passe</label>
-          <input type="password" name="password" id="password-input" required>
+          <input type="password" name="password" id="password-input" onkeyup="check()" required />
         </div>
         <div class="confirm">
-          <label for="password-confirm">Confirmation mot de passe</label>
-          <input type="password" name="confirm" id="password-confirm">
+          <label for="password-confirm">Confirmation mot de passe <span id="messageMDP"> </span> </label>
+          <input type="password" name="confirm" id="password-confirm" onkeyup="check()" />
         </div>
         <div class="agree">
           <input type="checkbox" name="accepter" id="accepter">
@@ -77,7 +77,19 @@
 
 
   <script type="text/javascript" src="assets/js/inscription.js"></script>
-
+  <script>
+    function check() {
+        if (document.getElementById('password-input').value ==
+            document.getElementById('password-confirm').value) {
+            document.getElementById('password-input').style.border = '3px solid green';
+            document.getElementById('password-confirm').style.border = '3px solid green';
+            document.getElementById('password-input').innerHTML = 'Similaire';
+        } else {
+            document.getElementById('password-confirm').style.border = '3px solid rgba(212, 30, 30, 0.6)';
+            document.getElementById('password-input').innerHTML = 'Ne correspond pas';
+        }
+    }
+  </script>
 
 </body>
 
