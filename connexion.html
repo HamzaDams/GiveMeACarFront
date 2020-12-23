@@ -28,14 +28,14 @@
     <div class="container">
     
         <div class="content">
-          <form action="index.html" class="form">
+          <form onsubmit="loginByEmail(this); return false;" class="form">
               <div class="inscription">
                 <h1>Connexion</h1>
               </div>
               
               <div class="email">
                 <label for="mail-input">E-mail :</label>
-                <input type="text" name="mail" id="mail-input">
+                <input type="text" name="email" id="mail-input">
               </div>
               <div class="password">
                 <label for="password">Mot de passe :</label>
@@ -46,5 +46,7 @@
               </div>
           </form>
         </div>
+
+        <script src="assets/js/connexion.js"></script>
 </body>
 </html>

@@ -44,17 +44,6 @@ function addUser(form) {
         `
     }
 
-    const inputPassword = document.querySelector("#password-input");
-    const inputPasswordConfirm = document.querySelector("#password-confirm");
-
-    // inputPassword.addEventListener("keypress", e => {
-    //     check();
-    // })
-
-    // inputPasswordConfirm.addEventListener("keypress", e => {
-    //     check();
-    // })
-
     
 }
 
